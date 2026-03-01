@@ -9,14 +9,20 @@
 
   <ItemGroup>
     <!-- TOML tests -->
-    <Compile Include="StringTests.fs" />
-    <Compile Include="NumberTests.fs" />
-    <Compile Include="DateTimeTests.fs" />
-    <Compile Include="ArrayTests.fs" />
-    <Compile Include="TableTests.fs" />
-    <Compile Include="DocumentTests.fs" />
-    <Compile Include="EdgeCaseTests.fs" />
-    <Compile Include="SerializerTests.fs" />
+    <Compile Include="TOML/StringTests.fs" />
+    <Compile Include="TOML/NumberTests.fs" />
+    <Compile Include="TOML/DateTimeTests.fs" />
+    <Compile Include="TOML/ArrayTests.fs" />
+    <Compile Include="TOML/TableTests.fs" />
+    <Compile Include="TOML/DocumentTests.fs" />
+    <Compile Include="TOML/EdgeCaseTests.fs" />
+    <Compile Include="TOML/SerializerTests.fs" />
+    <!-- XML tests -->
+    <Compile Include="XML/XmlElementTests.fs" />
+    <Compile Include="XML/XmlTextTests.fs" />
+    <Compile Include="XML/XmlDocumentTests.fs" />
+    <Compile Include="XML/XmlSerializerTests.fs" />
+    <!-- Entry point -->
     <Compile Include="Main.fs" />
   </ItemGroup>
 

@@ -13,6 +13,11 @@
     <Compile Include="TomlParser.fs" />
     <Compile Include="TomlSerializer.fs" />
     <Compile Include="Toml.fs" />
+    <!-- XML module -->
+    <Compile Include="XmlTypes.fs" />
+    <Compile Include="XmlParser.fs" />
+    <Compile Include="XmlSerializer.fs" />
+    <Compile Include="Xml.fs" />
   </ItemGroup>
 
   <ItemGroup>
