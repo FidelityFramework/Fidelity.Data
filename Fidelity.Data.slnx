@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Fidelity.Data/Fidelity.Data.fsproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/Fidelity.Data.Tests/Fidelity.Data.Tests.fsproj" />
+  </Folder>
+</Solution>
