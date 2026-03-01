@@ -22,6 +22,15 @@
     <Compile Include="XML/XmlTextTests.fs" />
     <Compile Include="XML/XmlDocumentTests.fs" />
     <Compile Include="XML/XmlSerializerTests.fs" />
+    <!-- JSON tests -->
+    <Compile Include="JSON/JsonValueTests.fs" />
+    <Compile Include="JSON/JsonSerializerTests.fs" />
+    <!-- CSV tests -->
+    <Compile Include="CSV/CsvParserTests.fs" />
+    <Compile Include="CSV/CsvSerializerTests.fs" />
+    <!-- YAML tests -->
+    <Compile Include="YAML/YamlValueTests.fs" />
+    <Compile Include="YAML/YamlSerializerTests.fs" />
     <!-- Entry point -->
     <Compile Include="Main.fs" />
   </ItemGroup>

@@ -1,5 +1,5 @@
 /// TOML 1.0.0 compliant parser built with XParsec.
-/// BCL-minimal design using F# derived types.
+/// BCL-minimal design to support Clef dimensional types.
 /// See: https://toml.io/en/v1.0.0
 namespace Fidelity.Data.TOML
 

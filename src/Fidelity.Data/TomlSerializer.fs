@@ -4,7 +4,7 @@
 /// TOML representation. Round-trips correctly with TomlParser (modulo comments
 /// and whitespace, which the AST does not preserve).
 ///
-/// Design: Pure F#, no dependencies beyond the types in TomlTypes.fs.
+/// Design: Pure, no dependencies beyond the types in TomlTypes.fs.
 namespace Fidelity.Data.TOML
 
 open System

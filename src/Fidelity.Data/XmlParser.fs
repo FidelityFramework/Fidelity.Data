@@ -1,5 +1,5 @@
 /// XML 1.0 parser built with XParsec.
-/// BCL-minimal design using F# derived types.
+/// BCL-minimal design to support Clef dimensional types.
 /// Handles elements, attributes, text, CDATA, comments, and processing instructions.
 /// Entity references: &amp; &lt; &gt; &apos; &quot; plus &#NNN; and &#xHHH;.
 /// Namespace prefixes are treated as part of element/attribute names (e.g. "xmlns:foo").

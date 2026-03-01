@@ -1,6 +1,6 @@
 /// XML document types for representing parsed XML.
 /// Covers elements, attributes, text, CDATA, comments, and processing instructions.
-/// Designed to be BCL-minimal, using F# derived types.
+/// Designed to be BCL-minimal, to support Clef dimensional types.
 namespace Fidelity.Data.XML
 
 /// An XML attribute (name-value pair on an element).

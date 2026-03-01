@@ -3,8 +3,8 @@
     <TargetFramework>net10.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageId>Fidelity.Data</PackageId>
-    <Description>Dependency-free data format libraries for the Fidelity ecosystem. TOML, XML, JSON — all built on XParsec parser combinators. No BCL dependencies.</Description>
-    <PackageTags>toml;xml;json;parser;serializer;f#;fsharp;xparsec;fidelity</PackageTags>
+    <Description>Dependency-free data format libraries for the Fidelity ecosystem. TOML, XML, JSON, CSV, YAML — all built on XParsec parser combinators. No BCL dependencies.</Description>
+    <PackageTags>toml;xml;json;csv;yaml;parser;serializer;xparsec;fidelity;clef</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,6 +18,21 @@
     <Compile Include="XmlParser.fs" />
     <Compile Include="XmlSerializer.fs" />
     <Compile Include="Xml.fs" />
+    <!-- JSON module -->
+    <Compile Include="JsonTypes.fs" />
+    <Compile Include="JsonParser.fs" />
+    <Compile Include="JsonSerializer.fs" />
+    <Compile Include="Json.fs" />
+    <!-- CSV module -->
+    <Compile Include="CsvTypes.fs" />
+    <Compile Include="CsvParser.fs" />
+    <Compile Include="CsvSerializer.fs" />
+    <Compile Include="Csv.fs" />
+    <!-- YAML module -->
+    <Compile Include="YamlTypes.fs" />
+    <Compile Include="YamlParser.fs" />
+    <Compile Include="YamlSerializer.fs" />
+    <Compile Include="Yaml.fs" />
   </ItemGroup>
 
   <ItemGroup>

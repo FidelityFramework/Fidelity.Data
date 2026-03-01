@@ -1,7 +1,7 @@
 /// XML Serializer — converts XmlDocument/XmlNode back to valid XML text.
 ///
 /// Follows the DU->text pattern: match each XmlNode case, emit the appropriate
-/// XML representation. Design: Pure F#, no dependencies beyond the types in XmlTypes.fs.
+/// XML representation. Design: Pure, no dependencies beyond the types in XmlTypes.fs.
 namespace Fidelity.Data.XML
 
 open System.Text

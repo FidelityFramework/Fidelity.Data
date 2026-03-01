@@ -1,6 +1,6 @@
 /// TOML value types for representing parsed TOML documents.
 /// Fully compliant with TOML 1.0.0 specification.
-/// Designed to be BCL-minimal, using F# derived types.
+/// Designed to be BCL-minimal, to support Clef dimensional types.
 namespace Fidelity.Data.TOML
 
 /// Represents a TOML date-time value with optional timezone offset.
@@ -57,7 +57,7 @@ type TomlValue =
     /// A regular table (from [table] header).
     | Table of TomlTable
 
-/// Represents a TOML table (key-value pairs) using F# Map.
+/// Represents a TOML table (key-value pairs) using Map.
 and TomlTable = Map<string, TomlValue>
 
 /// Represents a complete TOML document.
