@@ -13,6 +13,7 @@ Fidelity.Data is a unified library providing parsers and serializers for common 
 | **TOML** | `Fidelity.Data.TOML` | [TOML 1.0.0](https://toml.io/en/v1.0.0) | Complete |
 | **XML** | `Fidelity.Data.XML` | XML 1.0 | Planned |
 | **JSON** | `Fidelity.Data.JSON` | RFC 8259 | Planned |
+| **CSV** | `Fidelity.Data.CSV` | RFC 4180 | Planned |
 
 ## Part of the Fidelity Framework
 
