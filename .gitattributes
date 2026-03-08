@@ -24,4 +24,4 @@
 *.yml text
 *.yaml text
 
-*.clef linguist-language=FSharp
+*.clef diff=fsharp

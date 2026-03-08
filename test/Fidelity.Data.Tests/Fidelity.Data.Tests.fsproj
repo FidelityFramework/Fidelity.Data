@@ -9,30 +9,30 @@
 
   <ItemGroup>
     <!-- TOML tests -->
-    <Compile Include="TOML/StringTests.fs" />
-    <Compile Include="TOML/NumberTests.fs" />
-    <Compile Include="TOML/DateTimeTests.fs" />
-    <Compile Include="TOML/ArrayTests.fs" />
-    <Compile Include="TOML/TableTests.fs" />
-    <Compile Include="TOML/DocumentTests.fs" />
-    <Compile Include="TOML/EdgeCaseTests.fs" />
-    <Compile Include="TOML/SerializerTests.fs" />
+    <Compile Include="TOML/StringTests.clef" />
+    <Compile Include="TOML/NumberTests.clef" />
+    <Compile Include="TOML/DateTimeTests.clef" />
+    <Compile Include="TOML/ArrayTests.clef" />
+    <Compile Include="TOML/TableTests.clef" />
+    <Compile Include="TOML/DocumentTests.clef" />
+    <Compile Include="TOML/EdgeCaseTests.clef" />
+    <Compile Include="TOML/SerializerTests.clef" />
     <!-- XML tests -->
-    <Compile Include="XML/XmlElementTests.fs" />
-    <Compile Include="XML/XmlTextTests.fs" />
-    <Compile Include="XML/XmlDocumentTests.fs" />
-    <Compile Include="XML/XmlSerializerTests.fs" />
+    <Compile Include="XML/XmlElementTests.clef" />
+    <Compile Include="XML/XmlTextTests.clef" />
+    <Compile Include="XML/XmlDocumentTests.clef" />
+    <Compile Include="XML/XmlSerializerTests.clef" />
     <!-- JSON tests -->
-    <Compile Include="JSON/JsonValueTests.fs" />
-    <Compile Include="JSON/JsonSerializerTests.fs" />
+    <Compile Include="JSON/JsonValueTests.clef" />
+    <Compile Include="JSON/JsonSerializerTests.clef" />
     <!-- CSV tests -->
-    <Compile Include="CSV/CsvParserTests.fs" />
-    <Compile Include="CSV/CsvSerializerTests.fs" />
+    <Compile Include="CSV/CsvParserTests.clef" />
+    <Compile Include="CSV/CsvSerializerTests.clef" />
     <!-- YAML tests -->
-    <Compile Include="YAML/YamlValueTests.fs" />
-    <Compile Include="YAML/YamlSerializerTests.fs" />
+    <Compile Include="YAML/YamlValueTests.clef" />
+    <Compile Include="YAML/YamlSerializerTests.clef" />
     <!-- Entry point -->
-    <Compile Include="Main.fs" />
+    <Compile Include="Main.clef" />
   </ItemGroup>
 
   <ItemGroup>

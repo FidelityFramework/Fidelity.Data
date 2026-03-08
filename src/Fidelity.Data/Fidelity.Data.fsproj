@@ -9,30 +9,30 @@
 
   <ItemGroup>
     <!-- TOML module -->
-    <Compile Include="TomlTypes.fs" />
-    <Compile Include="TomlParser.fs" />
-    <Compile Include="TomlSerializer.fs" />
-    <Compile Include="Toml.fs" />
+    <Compile Include="TomlTypes.clef" />
+    <Compile Include="TomlParser.clef" />
+    <Compile Include="TomlSerializer.clef" />
+    <Compile Include="Toml.clef" />
     <!-- XML module -->
-    <Compile Include="XmlTypes.fs" />
-    <Compile Include="XmlParser.fs" />
-    <Compile Include="XmlSerializer.fs" />
-    <Compile Include="Xml.fs" />
+    <Compile Include="XmlTypes.clef" />
+    <Compile Include="XmlParser.clef" />
+    <Compile Include="XmlSerializer.clef" />
+    <Compile Include="Xml.clef" />
     <!-- JSON module -->
-    <Compile Include="JsonTypes.fs" />
-    <Compile Include="JsonParser.fs" />
-    <Compile Include="JsonSerializer.fs" />
-    <Compile Include="Json.fs" />
+    <Compile Include="JsonTypes.clef" />
+    <Compile Include="JsonParser.clef" />
+    <Compile Include="JsonSerializer.clef" />
+    <Compile Include="Json.clef" />
     <!-- CSV module -->
-    <Compile Include="CsvTypes.fs" />
-    <Compile Include="CsvParser.fs" />
-    <Compile Include="CsvSerializer.fs" />
-    <Compile Include="Csv.fs" />
+    <Compile Include="CsvTypes.clef" />
+    <Compile Include="CsvParser.clef" />
+    <Compile Include="CsvSerializer.clef" />
+    <Compile Include="Csv.clef" />
     <!-- YAML module -->
-    <Compile Include="YamlTypes.fs" />
-    <Compile Include="YamlParser.fs" />
-    <Compile Include="YamlSerializer.fs" />
-    <Compile Include="Yaml.fs" />
+    <Compile Include="YamlTypes.clef" />
+    <Compile Include="YamlParser.clef" />
+    <Compile Include="YamlSerializer.clef" />
+    <Compile Include="Yaml.clef" />
   </ItemGroup>
 
   <ItemGroup>
